@@ -21,7 +21,7 @@
 <script lang="ts" setup>
 import { ref } from 'vue'
 
-const value = ref<string[]>([])
+const value = ref<string[]>(['100'])
 const options = [
   {
     value: 'HTML',
